@@ -1,0 +1,48 @@
+beautifulsoup4==4.12.3
+    # via yfinance
+certifi==2024.7.4
+    # via requests
+charset-normalizer==3.3.2
+    # via requests
+frozendict==2.4.4
+    # via yfinance
+html5lib==1.1
+    # via yfinance
+idna==3.7
+    # via requests
+lxml==5.2.2
+    # via yfinance
+multitasking==0.0.11
+    # via yfinance
+numpy==2.0.1
+    # via
+    #   pandas
+    #   yfinance
+pandas==2.2.2
+    # via yfinance
+peewee==3.17.6
+    # via yfinance
+platformdirs==4.2.2
+    # via yfinance
+python-dateutil==2.9.0.post0
+    # via pandas
+pytz==2024.1
+    # via
+    #   pandas
+    #   yfinance
+requests==2.32.3
+    # via yfinance
+six==1.16.0
+    # via
+    #   html5lib
+    #   python-dateutil
+soupsieve==2.5
+    # via beautifulsoup4
+tzdata==2024.1
+    # via pandas
+urllib3==2.2.2
+    # via requests
+webencodings==0.5.1
+    # via html5lib
+yfinance==0.2.41
+    # via -r requirements.in
