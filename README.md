@@ -2,7 +2,7 @@
 
 ## Installation
 
-If you have git installed, do either command
+If you have git installed
 
 ```
 git clone https://github.com/BrandenPavon/tools.git
