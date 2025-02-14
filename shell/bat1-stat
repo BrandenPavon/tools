@@ -1,0 +1,2 @@
+#!/bin/bash
+join -1 2 -2 9 <(cat /sys/class/power_supply/BAT1/capacity) <(upower -i /org/freedesktop/UPower/devices/battery_BAT1 | grep state | awk '{print $2}')
