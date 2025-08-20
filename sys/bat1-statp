@@ -1,0 +1,2 @@
+#!/bin/bash
+join -1 2 -2 9 <(upower -i /org/freedesktop/UPower/devices/battery_BAT1 | grep energy: | awk '{print $2}') <(join -1 2 -2 9 <(upower -i /org/freedesktop/UPower/devices/battery_BAT1 | grep energy-full: | awk '{print $2}') <(upower -i /org/freedesktop/UPower/devices/battery_BAT1 | grep energy-rate | awk '{print $2}'))
